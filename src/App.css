@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Roboto, sans-serif;
+  margin: 3rem;
+  background-color: #dfdfdf;
+}
+
+h1,
+h2 {
+  color: #333333;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  color: #002333;
+  padding: 1rem;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2;
+  font-style: normal;
+}
+
+
+nav ul li:hover {
+  color: #3722d3;
+  border-bottom: 3px solid #3722d3;
+}
+
+
+.cardImg {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
